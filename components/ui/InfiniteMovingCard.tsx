@@ -87,12 +87,10 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="relative w-[90vw] md:w-[60vw] max-w-full shrink-0 rounded-2xl border border-b-0 border-zinc-200 bg-[linear-gradient(180deg,#fafafa,#f5f5f5)] p-5 md:p-16 dark:border-zinc-800 dark:bg-[linear-gradient(180deg,#27272a,#18181b)]"
-            style={{
-              background: "rgb(4,7,29)",
-              backgroundColor:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-            }}
+            className="relative w-[90vw] md:w-[60vw] max-w-full shrink-0 rounded-2xl border border-b-0 border-zinc-200 p-5 md:p-16 
+               bg-[linear-gradient(180deg,#fce7f3,#fbcfe8)] 
+               dark:border-zinc-800 
+               dark:bg-[linear-gradient(90deg,rgba(4,7,29,1)_0%,rgba(12,14,35,1)_100%)]"
             key={idx}
           >
             <blockquote>
@@ -100,13 +98,13 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none pointer-events-none absolute -top-0.5 -left-0.5 -z-1 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className="relative z-20 text-sm md:text-lg leading-[1.6] font-normal text-gray-100">
+              <span className="relative z-20 text-sm md:text-lg leading-[1.6] font-normal dark:text-gray-100 text-gray-900">
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3">
-                    <img src="/profile.svg" alt="profile" />
+                    {/* <img src="/profile.svg" alt="profile" /> */}
                   </div>
                   <div className="flex flex-col gap-1">
                     <span className="text-sm leading-[1.6] font-normal text-neutral-500 dark:text-gray-400">

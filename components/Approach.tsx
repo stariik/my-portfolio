@@ -43,7 +43,7 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Munni is Aditi"
+          title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
           description="This is where the magic happens! Based on the approved design, 
           I'll translate everything into functional code, building your website
@@ -137,7 +137,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-purple-900 dark:bg-slate-950 px-5 py-2 text-pink-200 dark:text-purple backdrop-blur-3xl font-bold text-2xl"
         >
           {order}
         </span>

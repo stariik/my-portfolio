@@ -105,36 +105,40 @@ export const projects = [
 ];
 
 export const testimonials = [
+ {
+  quote:
+    "My journey began in 2019 at IT Step Academy, where I built a solid foundation in development. I learned C#, HTML, CSS, JavaScript, MySQL, SQLite, and a bit of PHP. That year gave me the confidence and curiosity to keep growing in tech, and it marked the start of my path as a developer.",
+  name: "Web Developer in Progress",
+  title: "2019-2020",
+},
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson1",
-    title: "Director of AlphaStream Technologies",
-  },
+  quote:
+    "From 2020 to 2022, I deepened my technical expertise in cybersecurity, Linux administration, server management, penetration testing, Bash scripting, Python programming, and networking. This period equipped me with the skills to build and secure robust systems.",
+  name: "Cybersecurity & Systems Administration",
+  title: "2020–2022",
+}
+,
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson2",
-    title: "Director of AlphaStream Technologies",
-  },
+  quote:
+    "Between 2022 and 2024, I focused deeply on JavaScript — mastering the language beyond the basics. I learned modern frameworks, especially React.js, and became confident in building real-world web applications. I also worked extensively with APIs, learning how to integrate, build, and manage data flows. This phase shaped me into a solid front-end developer.",
+  name: "Front-End Development with JavaScript & React",
+  title: "2022–2024",
+}
+,
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson3",
-    title: "Director of AlphaStream Technologies",
-  },
+  quote:
+    "In 2025, I leveled up my front-end skills by diving into Next.js. I learned routing, server-side rendering (SSR), static site generation (SSG), API routes, middleware, dynamic metadata, file-based routing, and how to build full-featured apps. I also mastered TailwindCSS, component libraries, authentication with NextAuth and JWT, form handling with React Hook Form, state management with Context and Zustand, and deployment with Vercel. I now feel confident building production-grade, scalable front-end apps using Next.js.",
+  name: "Next.js Developer & Modern Front-End Engineer",
+  title: "2025",
+}
+,
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson4",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson5",
-    title: "Director of AlphaStream Technologies",
-  },
+  quote:
+    "I’m planning to expand my skills by learning Node.js and backend development to become a full-stack developer. At the same time, I want to continue advancing my career in cybersecurity, combining secure coding practices with software development to build robust, secure applications.",
+  name: "Full-Stack Development & Cybersecuritys",
+  title: "Future Plans ",
+}
+,
 ];
 
 export const companies = [
@@ -174,32 +178,33 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in building interactive web applications using React.js, gaining hands-on experience with component-driven UI and API integration.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "React Frontend Developer - JSM Tech",
+    desc: "Designed and developed cross-platform mobile applications using React Native, delivering seamless user experiences on both iOS and Android.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance React Developer",
+    desc: "Led end-to-end development of a client mobile app, from concept through deployment, focusing on responsive UI and API-driven data flows.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Developed and maintained user-facing features using React.js, Next.js, and TailwindCSS, implementing best practices for scalable, performant front-end apps.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
 ];
+
 
 export const socialMedia = [
   {
