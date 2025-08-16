@@ -38,7 +38,7 @@ const Footer = () => {
                 alt="icons"
                 width={20}
                 height={20}
-                className="invert dark:invert-0"
+                className="invert-0"
               />
             </div>
           ))}
