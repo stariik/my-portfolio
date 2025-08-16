@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <footer className="w-full mb-[100px] pb-10 md:mb-5" id="contact">
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45w]">
-          Ready to take <span className="">your</span> digital presence to the
+        <h1 className="heading lg:max-w-[45w] text-white">
+          Ready to take <span className="text-purple">your</span> digital presence to the
           next level
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <p className="text-white-200 md:mt-10 my-5 text-center text-white">
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>

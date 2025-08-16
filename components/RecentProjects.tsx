@@ -7,7 +7,7 @@ import { PinContainer } from "./ui/3d-pin";
 function RecentProjects() {
   return (
     <div className="py-20" id="projects">
-      <h1 className="heading">
+      <h1 className="heading text-white">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
@@ -24,10 +24,10 @@ function RecentProjects() {
                 </div>
                 <img src={img} alt={title} className="z-10 absolute bottom-0" />
               </div>
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 ">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white mt-4 mb-4">
                 {title}
               </h1>
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 text-white">
                 {des}
               </p>
 
